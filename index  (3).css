@@ -1,0 +1,61 @@
+.background{
+    width: 1498px;
+    height: 1100px;
+    padding: 1px;
+    
+}
+.movies{
+    position: absolute;
+    top: 250px;
+    left: 60px;
+}
+.title{
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    font-size: 40px;
+    color: rgb(221, 184, 3);
+}
+.feilds div{
+    padding: 10px;
+}
+input{
+    margin-left:70px;
+}
+
+#user,
+#number,
+#add,
+#mail,
+#facebook,
+#bdate
+{
+   position: absolute;
+   left:200px;
+   height: 39px;
+   border: none;
+   border-radius: 20px;
+   outline-color:  rgb(221, 184, 3);
+   margin-right: 10px;
+   width: 200px;
+}
+#reg{
+  position: absolute;
+  margin-top:50px;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(221, 184, 3);
+  width: 150px;
+  background-color: transparent;
+}
+#la{
+    font-size: 30px;
+    color: rgb(221, 184, 3);
+}
+#welcome{
+    position: absolute;
+    top: 1020px;
+    left: 400px;
+    font-size: 30px;
+    color: rgb(221, 184, 3);
+}

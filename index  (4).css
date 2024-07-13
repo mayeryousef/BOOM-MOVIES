@@ -1,0 +1,126 @@
+.movies{
+   
+    height: 1000px;
+   
+}
+section h3{
+    padding: 10px;
+    color:  rgb(255, 213, 0);
+    font-size: 25px;
+}
+section div{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+}
+section article{
+    padding: 30px;
+    
+}
+
+#poster{
+    width: 200px;
+    height: 250px;
+box-shadow: 5px 5px 0 0 rgb(11, 11, 10);
+cursor: pointer;
+transition: 1s;
+}
+#poster:hover{
+    transform:translate(10px,10px)
+}
+.rate{
+    margin-top: 10px;
+   width: 20px;
+   height: 20px;
+}
+.sermov{
+    position: absolute;
+    left: 500px;
+    top: 180px;
+}
+.search{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    
+}
+.search input{
+    height: 30px;
+    border-radius: 4px;
+    width: 300px;
+}
+.search button{
+    width: 38px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    border-radius: 3px;
+}
+#serimg{
+width: 25px;
+height: 25px;
+position: relative;
+
+}
+footer{
+    background-color:   rgb(3, 36, 65);
+}
+span{
+    margin-right: 2px;
+}
+
+.fpages{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.fpages div{
+    position: relative;
+    top: -5px;
+}
+.fpages img{
+    width: 25px;
+    height: 25px;
+}
+.fpages p{
+  font-size: 25px;
+  color:rgb(221, 184, 3);
+}
+.fpages div{
+    margin-top: 18px;
+    padding: 10px;
+}
+.fpages a{
+    color: rgb(255, 213, 0);
+    font-size: 20px;
+}
+.facebook:hover{
+    color: rgb(40, 74, 186);
+}
+.twitter:hover{
+    color: rgba(0, 204, 255, 0.904);
+}
+.instagram:hover{
+    color: rgb(165, 112, 42);
+}
+.website{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+}
+.website div{
+    padding: 10px;
+    
+}
+.website a{
+    color: white;
+}
+#rate{
+    box-shadow: none;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    
+}

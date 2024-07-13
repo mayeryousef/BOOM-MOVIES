@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    pad: 10px;
+    background-color: rgb(3, 36, 65);
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo h2{
+    padding: 10px;
+    color: rgb(255, 213, 0);
+    font-size: 40px;
+}
+.logo span{
+    color: white;
+    font-size: 15px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    padding: 10px;
+
+}
+.pages div{
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    width: max-content;
+    height: max-content;
+}
+.pages div:hover{
+    background-color:rgba(128, 128, 128, 0.252);
+}
+.pages a{
+    font-size: 30px; 
+   color:rgb(255, 213, 0);
+   
+}
+.pages img{
+    width: 20px;
+    height: 20px;
+}
+.pages a:hover{
+    color: azure;
+    
+    width: max-content;
+}
